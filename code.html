@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcus Portfolio</title>
+    <!-- Importing Poppins Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            height: 100%;
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: #e0e0e0; /* Light text color */
+            background-color: #121212; /* Dark background color */
+        }
+        /* Flexbox container for full height */
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        main {
+            flex: 1;
+        }
+        /* Header */
+        header {
+            text-align: center;
+            padding: 2rem;
+            background-color: #1f1f1f; /* Dark gray header */
+            color: #e0e0e0; /* Light text */
+        }
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+        /* Main Sections */
+        section {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: #1e1e1e; /* Darker card background */
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        section h2 {
+            font-size: 2rem;
+            color: #4caf50; /* Accent green */
+            margin-bottom: 1rem;
+        }
+        section p {
+            font-size: 1rem;
+            color: #bdbdbd; /* Soft gray text */
+        }
+        /* About Section */
+        #about {
+            display: flex;
+            align-items: center;
+            text-align: left;
+            gap: 1rem;
+        }
+        #about img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+        }
+        /* Projects Section */
+        .project {
+            margin-bottom: 1.5rem;
+        }
+        .project h3 {
+            font-size: 1.5rem;
+            color: #4caf50; /* Accent green */
+        }
+        .project p {
+            font-size: 1rem;
+            color: #bdbdbd;
+        }
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #1f1f1f;
+            color: #e0e0e0;
+        }
+        footer p {
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: #4caf50; /* Accent green */
+            text-decoration: none;
+        }
+        footer a:hover {
+            color: #81c784; /* Lighter green */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Online Portfolio</h1>
+        <p>IT Student | Tech Enthusiast | Aspiring Developer</p>
+    </header>
+
+    <main>
+        <section id="about">
+            <img src="avatar.jpeg" alt="Avatar">
+            <div>
+                <h2>About Me</h2>
+                <p>
+                    Hello! I'm Marcus, an IT student passionate about technology and problem-solving. I enjoy learning about web development, programming, and building projects that make a difference. My goal is to grow my skills and make an impact in the tech world.
+                </p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project">
+                <h3>Project 1: Beginner Portfolio</h3>
+                <p>A responsive portfolio website to showcase my learning journey and small projects.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>I'm always open to connecting with like-minded individuals or mentors! Feel free to reach out.</p>
+            <p>Email: <a href="mailto:marcustimbal1@gmail.com">marcustimbal1@gmail .com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Marcus Portfolio. Built with curiosity and passion.</p>
+        <p><a href="#top">Back to Top</a></p>
+    </footer>
+</body>
+</html>
